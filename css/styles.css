@@ -214,6 +214,7 @@ header {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .header-container {
   display: flex;
@@ -223,8 +224,7 @@ header {
 .navigation {
   display: flex;
   gap: 46px;
-  margin-right: 371px;
-  padding: 32px 0;
+  padding-top: 30px;
   padding-left: 93px;
 }
 .big-container {
@@ -465,7 +465,7 @@ header {
   content: '';
   position: absolute;
   display: block;
-  top: 43px;
+  top: 48px;
   width: 100%;
   height: 4px;
   background-color: var(--second-color);
