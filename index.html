@@ -21,6 +21,7 @@
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
+    <!--header navigation and contact-->
     <header>
       <div class="container header-container">
         <nav class="navi1">
@@ -57,6 +58,7 @@
         </ul>
       </div>
     </header>
+    <!--main with information about website-->
     <main>
       <section class="backgroud">
         <div class="big-container container section">
@@ -117,28 +119,28 @@
         </ul>
         <section>
           <h2 class="first-header">Czym się zajmujemy</h2>
-          <ul class="job-list container">
-            <div class="studio-job-container">
-              <div class="studio-job-container-img">
-                <li><img alt="Programowanie" width="370" height="294" src="images/img1.jpg" /></li>
-                <p class="studio-job-container-img-paragraph">Aplikacje komputerowe</p>
-              </div>
-              <div class="studio-job-container-img">
-                <li><img alt="Aplikacje" width="370" height="294" src="images/img2.jpg" /></li>
-                <p class="studio-job-container-img-paragraph">Aplikacje mobilne</p>
-              </div>
-              <div class="studio-job-container-img">
-                <li><img alt="Tablety" width="370" height="294" src="images/img3.jpg" /></li>
-                <p class="studio-job-container-img-paragraph">Rozwiązania graficzne</p>
-              </div>
-            </div>
-          </ul>
+          <section class="offer">
+            <ul class="job-list container studio-job-container-img">
+              <li class="offer-item">
+                <img alt="Programowanie" width="370" height="294" src="images/img1.jpg" />
+                <p class="offer-text">Aplikacje komputerowe</p>
+              </li>
+              <li class="offer-item">
+                <img alt="Aplikacje" width="370" height="294" src="images/img2.jpg" />
+                <p class="offer-text">Aplikacje mobilne</p>
+              </li>
+              <li class="offer-item">
+                <img alt="Tablety" width="370" height="294" src="images/img3.jpg" />
+                <p class="offer-text">Rozwiązania graficzne</p>
+              </li>
+            </ul>
+          </section>
         </section>
       </section>
 
       <section class="squad section">
         <div class="container">
-          <h2 class="second-header">Nasz zespół</h2>
+          <h2 class="first-header">Nasz zespół</h2>
           <ul class="job-list">
             <li class="squad-item">
               <figure>
@@ -354,6 +356,7 @@
         </ul>
       </section>
     </main>
+    <!--footer with contact infromation-->
     <footer class="footer-backgroud">
       <div class="container footer-container">
         <div>
@@ -403,6 +406,7 @@
         </div>
       </div>
     </footer>
+    <!--modal-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
